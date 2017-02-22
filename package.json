@@ -4,7 +4,8 @@
   "description": "bucketlist for countries",
   "main": "server.js",
   "scripts": {
-    "test": "n/a"
+    "test": "n/a",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/n/a/issues"
   },
-  "homepage": "https://github.com/n/a#readme"
+  "homepage": "https://github.com/n/a#readme",
+  "devDependencies": {
+    "express": "^4.14.1"
+  },
+  "dependencies": {
+    "mongodb": "^2.2.24"
+  }
 }
