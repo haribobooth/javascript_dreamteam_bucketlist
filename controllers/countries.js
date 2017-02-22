@@ -11,4 +11,11 @@ countryRouter.get('/', function(req, res){
   });
 });
 
+countryRouter.post('/', function(req, res){
+  var country = {name: req.body.name};
+  query.addCountry(country, function(countries){
+    res.json(countries);
+  });
+});
+
 module.exports = countryRouter;
