@@ -3,11 +3,11 @@ db.dropDatabase();
 
 use bucketlist;
 
-db.countries.insert(
+db.countries.insert([
   {
     name: 'Spain'
   },
   {
-    name: "Japan"
+    name: 'Japan'
   }
-);
+]);
