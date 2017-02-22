@@ -1,0 +1,19 @@
+{
+  "name": "dreamteam_bucketlist",
+  "version": "1.0.0",
+  "description": "bucketlist for countries",
+  "main": "server.js",
+  "scripts": {
+    "test": "n/a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme"
+}
